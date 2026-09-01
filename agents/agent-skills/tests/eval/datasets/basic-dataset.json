@@ -1,0 +1,109 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "downtown-address",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Where is the Harbor Roast downtown location?"
+          }
+        ]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "120 Harbor Lane, San Francisco, CA 94111 (Pier District)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "eval_case_id": "latte-price",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "How much is a 16 oz latte?"
+          }
+        ]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "A 16 oz latte is $5.50."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "eval_case_id": "almond-croissant-marina",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Can I get an almond croissant at the downtown store?"
+          }
+        ]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Almond croissant is available at Marina only, not Downtown."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "eval_case_id": "spring-promo-inactive",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Do you have the Spring Roast Week 20% off cold brew promotion?"
+          }
+        ]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Spring Roast Week 2026 is INACTIVE and is not offered currently."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "eval_case_id": "escalate-catering",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I need catering for 50 people next Friday."
+          }
+        ]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "A Harbor Roast team member should follow up on large catering requests."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

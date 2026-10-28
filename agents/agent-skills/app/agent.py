@@ -25,7 +25,7 @@ from google.genai import types
 from app.prompt import HARBOR_PROMPT
 from app.tools import get_now
 
-MODEL = "gemini-3.7-flash"
+MODEL = "gemini-flash-latest"
 _SKILLS_DIR = pathlib.Path(__file__).parent / "skills"
 
 _skills = [
